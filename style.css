@@ -39,7 +39,7 @@ body{
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     font-family: poppins, serif;
-    font-size: larger;
+    font-size: medium;
     font-weight: 500;
     text-decoration: none;
     transition: border-bottom 0.1s ease-in;  
@@ -59,13 +59,13 @@ h1,h2{
 h1{
     font-family: Roboto;
     font-weight: 450;
-    font-size: 56px;
+    font-size: larger;
     letter-spacing: 5px;
     color: rgb(253, 255, 252);
 }
 h2{
     font-weight: 400;
-    font-size: x-large;
+    font-size: large;
     letter-spacing: 2px;
     color: rgb(228, 114, 69);
 }
@@ -88,7 +88,7 @@ h2{
     padding: 15px;
     box-sizing: border-box;
     font-family: quicksand, serif;
-    font-size: large;
+    font-size: medium;
     border-left: 4px solid rgb(160, 107, 9);
     color: white;
 }
@@ -107,13 +107,13 @@ h2{
     padding: 5px;
     font-family: poppins, serif;
     font-weight: 400;
-    font-size: xx-large;
+    font-size: x-large;
     color: var(--headcolor);
 }
 
 .content{
     font-family: lexend giga, serif;
-    font-size: large;
+    font-size: medium;
     padding: 5px;
     color: var(--contentcolor);
 }
@@ -126,7 +126,7 @@ h2{
     position: absolute;
     background-color: rgba(255, 166, 0, 0.753);
     border-radius: 50px;
-    font-size: large;
+    font-size: medium;
     text-decoration: none;
     font-family: Roboto, serif;
     padding: 10px 20px;
