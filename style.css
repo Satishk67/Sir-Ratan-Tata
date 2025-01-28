@@ -17,7 +17,7 @@ body{
 }
 
 .navbar{
-    background-color: rgba(252, 181, 49, 0.871);
+    background-color: rgba(252, 181, 49, 1);
     padding: 8px;
     display: flex;
     box-sizing: border-box;
@@ -27,7 +27,7 @@ body{
     position: sticky;
     top: 0px;
     height: 8vh;
-    z-index: 10,
+    z-index: 1000,
 }
 
 .navtab{
@@ -133,6 +133,7 @@ h2{
     text-align: center;
     width: 12vw;
     left: 44vw;
+    margin-bottom: 10vh;
 }
 
 
