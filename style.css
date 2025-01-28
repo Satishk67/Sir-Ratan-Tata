@@ -16,9 +16,27 @@ body{
     background-color: var(--pagebgcolor);
 }
 
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
 .navbar{
     background-color: rgba(252, 181, 49, 1);
-    padding: 8px;
+    padding: 15px;
     display: flex;
     box-sizing: border-box;
     justify-content: center;
@@ -27,7 +45,9 @@ body{
     position: sticky;
     top: 0px;
     height: 8vh;
-    z-index: 1000,
+    z-index: 1000;
+    animation: fadein 1s ease-in-out ;
+    
 }
 
 .navtab{
@@ -47,6 +67,7 @@ body{
 
 .navtab:hover, .navtab:active{
     border-bottom: 4px solid  rgba(219, 115, 10, 0.889);
+    text-shadow: 0px 0px 5px black;
 }
 
 h1,h2{
@@ -59,13 +80,13 @@ h1,h2{
 h1{
     font-family: Roboto;
     font-weight: 450;
-    font-size: larger;
+    font-size: x-large;
     letter-spacing: 5px;
     color: rgb(253, 255, 252);
 }
 h2{
     font-weight: 400;
-    font-size: large;
+    font-size: larger;
     letter-spacing: 2px;
     color: rgb(228, 114, 69);
 }
@@ -78,8 +99,10 @@ h2{
     padding: 25vh 18vh;
     box-sizing: border-box;
     height: 85vh;
-    
-    
+    position: relative;
+    top: 0px;
+    z-index: 1;
+    animation: fadein 1s ease-in-out ;
 }
 
 #short-intro{
@@ -133,7 +156,14 @@ h2{
     text-align: center;
     width: 12vw;
     left: 44vw;
-    margin-bottom: 10vh;
+}
+
+.reference{
+    margin-bottom: 20vh;
+}
+
+#referencelink:hover{
+    box-shadow: 0px 0px 5px orange;
 }
 
 
